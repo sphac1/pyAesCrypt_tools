@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-pyAesCrypt BruteForce Tool v2.1 (multiprocess, 支持 --tmp 参数)
-修复版本：兼容 Kali 2024 虚拟环境限制
+pyAesCrypt 暴力破解工具 v2.1
+多进程 AES 解密 | 自动虚拟环境 | 2024+ 兼容
 """
 
 import os
