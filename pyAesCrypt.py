@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-pyAesCrypt BruteForce Tool v2.2 (2024+ Compatible)
+pyAesCrypt BruteForce Tool  (2024+ Compatible)
 Multi-process AES decryption brute force tool with virtual environment auto-setup
 """
 
