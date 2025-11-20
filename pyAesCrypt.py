@@ -315,7 +315,7 @@ def print_banner():
  #    #  #      #   #     #       #    #  #      #   #  #    # 
  #####   ###### #    #    #        ####   ###### #    #  #####  
                                                                 
-    pyAesCrypt Multi-Process Brute Force Tool v2.2
+    pyAesCrypt Multi-Process Brute Force Tool v2.1
     
 {Colors.END}{Colors.YELLOW}    [*] Auto virtual environment setup (Kali 2024+ compatible)
     [*] Multi-process parallel processing
@@ -327,7 +327,7 @@ def print_banner():
 # ---------------- Main ----------------
 def main():
     print_banner()
-    parser = argparse.ArgumentParser(description="pyAesCrypt Multi-Process Brute Force Tool v2.2")
+    parser = argparse.ArgumentParser(description="pyAesCrypt Multi-Process Brute Force Tool v2.1")
     parser.add_argument("-f", "--file", required=True, help="Target encrypted file")
     parser.add_argument("-o", "--output", default="decrypted.bin", help="Decrypted output file (default: decrypted.bin)")
     parser.add_argument("-p", "--processes", type=int, default=None, help="Number of processes (default: CPU cores)")
